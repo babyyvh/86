@@ -519,18 +519,11 @@ var MAC={
 }
 
 $(function(){
-	//异步加载图片初始化
-	MAC.Lazyload.Show();
-	//历史记录初始化
-	MAC.History.List('history');
-	//用户登录初始化
-	MAC.Login.Init('login');
-	//搜索联想初始化
-	MAC.Suggest.Show('wd',10, SitePath+'inc/ajax.php?ac=suggest&aid='+SiteAid, SitePath+'index.php?m=vod-search-wd-');
-	//顶踩初始化
-	MAC.Digg.Show(SitePath+'inc/ajax.php?ac=digg&aid='+SiteAid+'&id='+SiteId);
-	//ajax评论初始化
-	MAC.Comment.Show(SitePath+'index.php?m=comment-show-aid-'+SiteAid+'-vid-'+SiteId);
-	//定时任务初始化
-	MAC.Timming();
+	//异步加载图片初始化	MAC.Lazyload.Show();
+	//历史记录初始化	MAC.History.List('history');
+	//用户登录初始化	MAC.Login.Init('login');
+	//搜索联想初始化	MAC.Suggest.Show('wd',10, SitePath+'inc/ajax.php?ac=suggest&aid='+SiteAid, SitePath+'index.php?m=vod-search-wd-');
+	//顶踩初始化	MAC.Digg.Show(SitePath+'inc/ajax.php?ac=digg&aid='+SiteAid+'&id='+SiteId);
+	//ajax评论初始化	MAC.Comment.Show(SitePath+'index.php?m=comment-show-aid-'+SiteAid+'-vid-'+SiteId);
+	//定时任务初始化	MAC.Timming();
 });
