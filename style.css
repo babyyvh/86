@@ -938,10 +938,10 @@ margin: auto auto;
 /*page*/
 .page{text-align: center;}
 .page span{display:none;}
-.page a,.page em{display:inline-block;width: 40px;height: 18px;margin:5px 5px;padding: 5px 5px;line-height: 1.42857143;text-decoration: none;color: #1BBC9D;border: 1px solid #1BBC9D;margin-left: 5px;border-radius: 2px;font-weight: bold;font-size: 13px;font-style: normal;}
+.page a,.page em{display:inline-block;width: 40px;height: 18px;margin:5px 5px;padding: 5px 5px;line-height: 1.42857143;text-decoration: none;color: #000;border: 1px solid #000;margin-left: 5px;border-radius: 2px;font-weight: bold;font-size: 13px;font-style: normal;}
 .page a{background: #fff;}
 .page a:hover{background: #f06000;color:#fff;}
-.page em{background: #1E8A6B;color:#fff;}
+.page em{background: #000;color:#fff;}
 
 .topicindex li {
 	position:relative;
