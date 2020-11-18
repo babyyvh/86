@@ -1597,8 +1597,8 @@ margin-bottom:.5rem
 .btn .btn1,.btn .btn2{padding:5px 15px; color:#fff; font-size:18px; background:#5eb95e; border:1px solid #5eb95e; border-radius:5px;margin: 0 5px;}
 .btn .btn2{background:#dd514c; border:1px solid #dd514c;}
 
-.cont-banner{margin:5px 0px 0px}.cont-banner a{display:block;height:40px;line-height:40px;font-size:1.6rem;text-align:center;background:#00BB00;color:#fff;border-radius:3px;overflow:hidden}
-
+.cont-banner{margin:5px 0px 0px}
+.cont-banner a{display:block;height:40px;line-height:40px;font-size:1.6rem;text-align:center;background:#000;color:#fff;border-radius:14px;overflow:hidden}
 
 @media (min-width:1051px){
     .main, .nav-down-2, .top {margin:0 auto;width:1200px;}
